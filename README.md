@@ -1,31 +1,38 @@
-# java-prairie-cqp
+# java-exercises
 
-## Week 1
 
 ###Calculator
 Implement a Calculator that allows to calculate two number.
 
 
 ### Library
+
 A Book has a title and some pages
+
 A CD has a title and a time
+
 A DVD has a kind, a title, an indication of it is in 3D and time
+
 There are 4 kind of movie: horror, fun, action, musical
 
 The Library has these methods only:
-    ArrayList<Book> putBooks(ArrayList<Book> books);
-    ArrayList<DVD> putDvds(ArrayList<DVD> dvds);
-    ArrayList<CD> putCDs(ArrayList<CD> cds);
-    boolean isOpen(int hour);
+*ArrayList<Book> putBooks(ArrayList<Book> books);
+*ArrayList<DVD> putDvds(ArrayList<DVD> dvds);
+*ArrayList<CD> putCDs(ArrayList<CD> cds);
+*boolean isOpen(int hour);
 
 The Library can storage 3 DVDs only.
 
 If there are already 3 DVDs and the user want to give more. The library doesn't accept these dvds.
+
 For example:
+
 The library has 3 DVDs and the user give 4 DVDs. The library doesn't accept it. So the library has 3 DVD.
 
 If there are already some DVDs and the user try to give a book that the library already has. The library doesn't accept these dvds.
+
 For example:
+
 The library have 1 DVD like DVD dvd = new DVD("dvd", 120, Movie.HORROR, false) and the user give the same DVD. The library doesn't accept it.
 
 Implement and test a library
@@ -34,8 +41,8 @@ Implement and test a library
 ### UniqueChar
 Implement and test an algorithm to determine if a string on ascii has all unique characters
 example:
-   	abcdefg => ok
-   	abcdafg => ko
+*abcdefg => ok
+*abcdafg => ko
 
 
 ### Mower
@@ -69,11 +76,17 @@ When a mower has finished, it give the final position and orientation.
 Example:
 input file
 55
+
 12N
+
 LFLFLFLFF
+
 33E
+
 FFRFFRFRRF
+
 result
+
 13N 51E
 
 Implement and test a mower
@@ -81,6 +94,7 @@ Implement and test a mower
 
 ### LetterCount
 Implement a method to perform basic string compression using the counts of repeated characters.
+
 For example, the string aabcccccaaa would become a5b1c5.
 
 ### TicTacTOe
@@ -89,30 +103,30 @@ For example, the string aabcccccaaa would become a5b1c5.
 StringCalculator
 
 Avant de commencer :
-1. Faire les taches dans l’ordre
-2. Faire une tâche à la fois.
-3. Assurez-vous que vous testez seulement les entrées valides. Il n'y a pas besoin de tester les cas non valides.
-4. Il doit pas avoir des régressions sur les taches précédentes au cours de l’exercice.
+*1. Faire les taches dans l’ordre
+*2. Faire une tâche à la fois.
+*3. Assurez-vous que vous testez seulement les entrées valides. Il n'y a pas besoin de tester les cas non valides.
+*4. Il doit pas avoir des régressions sur les taches précédentes au cours de l’exercice.
 
 
 Exercice :
-1. Compléter la méthode add pour accepter 0, 1 ou 2 chiffres et qui retourne leur somme (la chaîne vide retourne 0).
+*1. Compléter la méthode add pour accepter 0, 1 ou 2 chiffres et qui retourne leur somme (la chaîne vide retourne 0).
    Le caractère de séparation est la virgule.
    Exemple : add("")=0, add("1")=1 ou add("1,2")=3
 
-2. Permettre à la méthode add d'accepter plus de deux nombres
+*2. Permettre à la méthode add d'accepter plus de deux nombres
    Exemple : add("1,2,3")=6
 
-3. La méthode add peut gérer le retour à la ligne "\n"
+*3. La méthode add peut gérer le retour à la ligne "\n"
    Exemple : add("1\n2,3")=6
    ATTENTION : l'entrée suivante n’est PAS autorisée: "1,\n"
 
-4. Différents séparateurs : la méthode peut accepter un séparateur different de la virgule,
+*4. Différents séparateurs : la méthode peut accepter un séparateur different de la virgule,
    le début de la chaîne contiendra une ligne distincte qui ressemble à ceci: "séparateur][nombre ...]"
    Exemple : add("[;]1;2")=3
    ATTENTION : la première ligne est facultative. tous les scénarios existants doivent encore être pris en charge.
 
-5. Si la chaine d'entrée contient un numéro négatif, la méthode add lance une exception
+*5. Si la chaine d'entrée contient un numéro négatif, la méthode add lance une exception
    avec le message suivant "negatives not allowed [numéros négatifs...]"
    Exemple : add("1,-2") : "negatives not allowed -2"
 
