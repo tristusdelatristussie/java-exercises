@@ -1,5 +1,7 @@
 # java-exercises
 
+<img src = "http://television.thedigitalfix.com/protectedimage.php?image=DanielTheophanous/THE_OA.jpg_26122016">
+
 
 ###Calculator
 Implement a Calculator that allows to calculate two number.
@@ -22,7 +24,7 @@ The Library can storage 3 DVDs only.<br/>
 If there are already 3 DVDs and the user want to give more. The library doesn't accept these dvds.<br/>
 If there are already some DVDs and the user try to give a book that the library already has. The library doesn't accept these dvds.<br/>
 
-For example:
+For example:<br/>
 The library has 3 DVDs and the user give 4 DVDs. The library doesn't accept it. So the library has 3 DVD.<br/>
 The library have 1 DVD like DVD dvd = new DVD("dvd", 120, Movie.HORROR, false) and the user give the same DVD. The library doesn't accept it.<br/>
 
