@@ -1,8 +1,5 @@
 # java-exercises
 
-<img src = "http://md1.libe.com/photo/790872-petite-maison-prairie.jpg?modified_at=1436433367&width=960">
-
-
 ###Calculator
 Implement a Calculator that allows to calculate two number.
 
@@ -28,11 +25,11 @@ For example:<br/>
 The library has 3 DVDs and the user give 4 DVDs. The library doesn't accept it. So the library has 3 DVD.<br/>
 The library have 1 DVD like DVD dvd = new DVD("dvd", 120, Movie.HORROR, false) and the user give the same DVD. The library doesn't accept it.<br/>
 
-Implement and test a library
+Implement library and create unit test
 
 
 ### UniqueChar
-Implement and test an algorithm to determine if a string on ascii has all unique characters.<br/>
+Implement an algorithm to determine if a string on ascii has all unique characters. Create unit test too<br/>
 example:<br/>
 * abcdefg => ok
 * abcdafg => ko
@@ -77,7 +74,7 @@ FFRFFRFRRF<br/>
 result<br/>
 13N 51E
 
-Implement and test a mower
+Implement mower and create unit test.
 
 
 ### LetterCount
