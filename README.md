@@ -1,6 +1,6 @@
 # java-exercises
 
-<img src = "http://television.thedigitalfix.com/protectedimage.php?image=DanielTheophanous/THE_OA.jpg_26122016">
+<img src = "http://md1.libe.com/photo/790872-petite-maison-prairie.jpg?modified_at=1436433367&width=960">
 
 
 ###Calculator
