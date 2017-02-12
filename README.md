@@ -7,13 +7,10 @@ Implement a Calculator that allows to calculate two number.
 
 ### Library
 
-A Book has a title and some pages
-
-A CD has a title and a time
-
-A DVD has a kind, a title, an indication of it is in 3D and time
-
-There are 4 kind of movie: horror, fun, action, musical
+A Book has a title and some pages.
+A CD has a title and a time.
+A DVD has a kind, a title, an indication of it is in 3D and time.
+There are 4 kind of movie: horror, fun, action, musical.
 
 The Library has these methods only:
 * ArrayList<Book> putBooks(ArrayList<Book> books);
@@ -22,24 +19,18 @@ The Library has these methods only:
 * boolean isOpen(int hour);
 
 The Library can storage 3 DVDs only.
-
 If there are already 3 DVDs and the user want to give more. The library doesn't accept these dvds.
-
-For example:
-
-The library has 3 DVDs and the user give 4 DVDs. The library doesn't accept it. So the library has 3 DVD.
-
 If there are already some DVDs and the user try to give a book that the library already has. The library doesn't accept these dvds.
 
 For example:
-
+The library has 3 DVDs and the user give 4 DVDs. The library doesn't accept it. So the library has 3 DVD.
 The library have 1 DVD like DVD dvd = new DVD("dvd", 120, Movie.HORROR, false) and the user give the same DVD. The library doesn't accept it.
 
 Implement and test a library
 
 
 ### UniqueChar
-Implement and test an algorithm to determine if a string on ascii has all unique characters
+Implement and test an algorithm to determine if a string on ascii has all unique characters.
 example:
 * abcdefg => ok
 * abcdafg => ko
